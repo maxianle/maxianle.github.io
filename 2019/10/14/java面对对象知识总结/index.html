@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019/10 | Hexo</title>
+  <title>java面对对象知识总结 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2019/10/index.html">
+  <meta name="description" content="\1.        什么是JDK Java语言的软件开发程序包 \2.        什么是JRE Java运行环境 \3.        什么JVM Java虚拟机 \4.        解释MVC设计模式 C：控制器层:（接收用户界面数据传来的数据，并将处理结果反馈给视图层） V：用户界面 M：数据模型层（存储数据） \5.        项目名的命名规范 每个单词首字母大写，其余小写 \6">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java面对对象知识总结">
+<meta property="og:url" content="http://yoursite.com/2019/10/14/java面对对象知识总结/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="\1.        什么是JDK Java语言的软件开发程序包 \2.        什么是JRE Java运行环境 \3.        什么JVM Java虚拟机 \4.        解释MVC设计模式 C：控制器层:（接收用户界面数据传来的数据，并将处理结果反馈给视图层） V：用户界面 M：数据模型层（存储数据） \5.        项目名的命名规范 每个单词首字母大写，其余小写 \6">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-10-14T10:36:01.908Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="java面对对象知识总结">
+<meta name="twitter:description" content="\1.        什么是JDK Java语言的软件开发程序包 \2.        什么是JRE Java运行环境 \3.        什么JVM Java虚拟机 \4.        解释MVC设计模式 C：控制器层:（接收用户界面数据传来的数据，并将处理结果反馈给视图层） V：用户界面 M：数据模型层（存储数据） \5.        项目名的命名规范 每个单词首字母大写，其余小写 \6">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,49 +154,240 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-java面对对象知识总结" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/14/java面对对象知识总结/" class="archive-article-date">
-  	<time datetime="2019-10-14T10:34:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-14</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/14/java面对对象知识总结/">java面对对象知识总结</a>
+    <h1 class="article-title" itemprop="name">
+      java面对对象知识总结
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
+        
+        <a href="/2019/10/14/java面对对象知识总结/" class="archive-article-date">
+  	<time datetime="2019-10-14T10:34:51.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-14</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>\1.        什么是JDK</p>
+<p>Java语言的软件开发程序包</p>
+<p>\2.        什么是JRE</p>
+<p>Java运行环境</p>
+<p>\3.        什么JVM</p>
+<p>Java虚拟机</p>
+<p>\4.        解释MVC设计模式</p>
+<p>C：控制器层:（接收用户界面数据传来的数据，并将处理结果反馈给视图层）</p>
+<p>V：用户界面</p>
+<p>M：数据模型层（存储数据）</p>
+<p>\5.        项目名的命名规范</p>
+<p>每个单词首字母大写，其余小写</p>
+<p>\6.        包名的命名规范</p>
+<p>必须用com或org开头（com.公司名.项目名），全部用小写</p>
+<p>\7.        类名的命名规范</p>
+<p>首字母大写，其余用驼峰法</p>
+<p>\8.        方法名的命名规范</p>
+<p>首字母小写，其余用驼峰法</p>
+<p>\9.        变量名的命名规范</p>
+<p>首字母小写，其余用驼峰法</p>
+<p>\10.     怎么创建对象</p>
+<p>New+构造方法</p>
+<p>\11.     怎么创建构造方法</p>
+<p>Public+类名()+大括号（方法体）</p>
+<p>\12.     一个类，在怎么样的情况下会自动创建一个无参构造方法</p>
+<p>当java没有给类提供任何构造方法时，系统会自动生成一个无参构造方法</p>
+<p>\13.     什么是方法的重载</p>
+<p> 方法名相同，参数不同</p>
+<p>\14.     解释static关键字</p>
+<p>Static意为静态，用static修饰的属性和方法称为静态属性、静态方法或类属性、类方法，static修饰的代码块称为静态代码块，static修饰的变量属于这个类，即这个类创建的所有对象共用一个static变量。</p>
+<p>\15.     面向对象的特征</p>
+<p>封装，继承，多态</p>
+<p>\16.     封装的关键字是什么，并解释它</p>
+<p>Private，用它修饰后，该类中的所有属性，只能由该类所创建的对象才能调用</p>
+<p>\17.     一个封装类，应该使用什么方法设置和获取它的属性</p>
+<p>用set来设置，用get来获取</p>
+<p>\18.     解释this关键字</p>
+<p>表示当前类</p>
+<p>\19.     解释return关键字</p>
+<p>返回结果；结束程序</p>
+<p>\20.     继承的关键字是什么</p>
+<p> 是extends</p>
+<p>\21.     子类继承父类，是继承了父类的什么</p>
+<p>属性和方法</p>
+<p>\22.     什么是方法的重写</p>
+<p>子类对从父类继承的方法进行内容的修改，被称为重写</p>
+<p>\23.     解释super关键字</p>
+<p>代表父类的构造方法，子类可以通过它来调用父类的构造方法</p>
+<p>\24.     捕获异常的语法是什么</p>
+<p>Try{</p>
+<p>异常代码块</p>
+<p>}catch(异常情况){</p>
+<p>情况异常时运行的代码</p>
+<p>}</p>
+<p>\25.     在什么情况下必须进行异常的捕获</p>
+<p>运行时异常</p>
+<p>\26.     抛出异常的关键字是什么</p>
+<p>Throws</p>
+<p>\27.     什么是向上转型</p>
+<p>子类向父类的转换</p>
+<p>\28.     什么是向下转型</p>
+<p>父类向子类的转换</p>
+<p>\29.     解释finally关键字</p>
+<p>放在finally块中的语句，无论程序是否发生异常，都会执行</p>
+<p>\30.     解释final关键字</p>
+<p>使用final声明的变量叫常量；final声明的变量不能被二次赋值；final修饰的方法不能被修改</p>
+<p>\31.     抽象的关键字是什么</p>
+<p>是abstract</p>
+<p>\32.     什么是抽象类</p>
+<p>使用abstract修饰的类叫抽象类</p>
+<p>\33.     什么是抽象方法</p>
+<p>使用abstract修饰的方法叫抽象方法</p>
+<p>\34.     什么是接口</p>
+<p>使用interface声明的类叫接口</p>
+<p>\35.     接口的关键字是什么</p>
+<p>接口的关键字为interface</p>
+<p>\36.     实现接口的关键字是什么</p>
+<p>实现接口的关键字是implements</p>
+<p>\37.     List和Set集合有什么区别</p>
+<p>List允许元素重复，存储的元素是有序的；Set不允许元素重复，元素无序排列</p>
+<p>\38.     List和map集合有什么区别</p>
+<p>List允许元素重复，存储的元素是有序的；Map集合存储一组成对的键-对象，提供key（键）到value（值）的映射。Map中的key不要求有序，不允许重复。value同样不要求有序，但允许重复。</p>
+<p>\39.     public，producted，默认，private，四种修饰符有什么区别</p>
+<p>同一个包的其他类可以相互访问的修饰符：public、protected、默认的；</p>
+<p>不同包下的其他类可以相互访问的修饰符：public；</p>
+<p>不同包下的子类可以互相访问的修饰符：public、protected</p>
+<p>\40.     写出一个输入流对象类型</p>
+<p>字节输入流，字符输入流，文件输入流</p>
+<p>\41.     写出一个输出流对象类型</p>
+<p>字节输入流，字符输入流，文件输入流</p>
+<p>\42.     创建多线程的方式有哪些</p>
+<p>通过继承Threard,然后重写run方法，调用子类对象的start方法；</p>
+<p>通过Runnable接口，然后实现run方法，再创建一个Threard对象，并将实现类的对象传递进去</p>
+<p>\43.     同步的关键字是什么</p>
+<p>同步的关键字为synchronized</p>
 
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/14/java面对对象知识总结/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-  
-    </div></section>
+
   
 
-    
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
 
 
           </div>
@@ -215,8 +410,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
